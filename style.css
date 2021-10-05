@@ -1,0 +1,34 @@
+* {
+	border: none;
+	list-style: none;
+	border-radius: 5px;
+	box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+button:active {
+	box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.3);
+}
+
+body {
+	min-height: 90vh;
+	min-width: 90vw;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.box {
+	width: 50vw;
+	height: 50vh;
+	background-color: rgba(100, 100, 100, 0.377);
+	margin: 5px;
+}
+
+button {
+	background-color: skyblue;
+	height: 25px;
+	width: 50vw;
+	text-transform: capitalize;
+	font-size: large;
+}

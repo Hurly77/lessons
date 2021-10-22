@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+	@apply py-10;
+}
+
+#list * {
+	@apply text-lg;
+}
+
+#list > div {
+	@apply relative flex flex-col p-3;
+}
+
+#list > div h1 {
+	@apply w-full text-2xl font-medium text-center;
+}
+
+#list div > div {
+}
+
+#list > div span {
+}
+
+#list div button#delete {
+	@apply absolute flex items-center justify-center w-6 h-6 text-black bg-blue-300 rounded-full top-2 right-2;
+}

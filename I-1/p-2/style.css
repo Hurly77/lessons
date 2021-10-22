@@ -1,0 +1,77 @@
+body * {
+	box-sizing: border-box;
+}
+
+.box1 {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	padding: 15px;
+	height: 300px;
+	width: 250px;
+	background: lightblue;
+	border-radius: 10px;
+	border: 0px solid black;
+}
+
+.screen {
+	width: 100%;
+	height: 50px;
+	background-color: rgba(0, 0, 0, 0.6);
+	padding: 2px;
+	border-radius: 5px;
+	font-family: digit;
+	font-size: 30px;
+}
+
+.inner-screen {
+	display: flex;
+	width: 100%;
+	height: 100%;
+	border-radius: 5px;
+	background-color: rgb(104, 199, 231);
+	box-shadow: 1px 1px 3px 1px rgba(223, 221, 221, 0.8);
+}
+
+.btn-box {
+	display: flex;
+	justify-content: space-around;
+	border: 1px solid rgba(77, 72, 72, 0.609);
+	border-radius: 10px;
+	background-color: rgb(200, 226, 236);
+	padding: 5px;
+	width: 100%;
+}
+
+.math {
+	width: 40px;
+}
+
+.numbers {
+	width: 141px;
+}
+
+.math button {
+	border: 1px solid rgb(56, 56, 56);
+	border-radius: 5px;
+	width: 40px;
+	height: 40px;
+	margin-top: 3px;
+}
+
+.numbers button {
+	border: 1px solid rgb(56, 56, 56);
+	border-radius: 5px;
+	width: 40px;
+	height: 40px;
+	margin-top: 3px;
+}
+
+.equals:hover {
+	background-color: aliceblue;
+}
+
+button:active {
+	border: 2px solid green;
+}

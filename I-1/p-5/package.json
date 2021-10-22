@@ -1,0 +1,22 @@
+{
+	"name": "p5",
+	"version": "1.0.0",
+	"main": "index.js",
+	"scripts": {
+		"dev": "tailwindcss build -i ./src/tailwind.css -o ./public/tailwind.css",
+		"build": "NODE_ENV=production npm run dev",
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "nodemon ./api/app.js localhost 3000"
+	},
+	"devDependencies": {
+		"autoprefixer": "latest",
+		"nodemon": "latest",
+		"postcss": "latest",
+		"tailwindcss": "latest"
+	},
+	"dependencies": {
+		"cors": "latest",
+		"cuid": "latest",
+		"express": "latest"
+	}
+}
